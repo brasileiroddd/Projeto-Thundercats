@@ -1,0 +1,80 @@
+@media (max-width: 1220px) {
+    body {
+        background-color: #000000;
+    }
+
+    .fundo-video {
+        display: none;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .imagem-titulo {
+        padding: 20px 0 0px;
+    }
+
+    .container .thundercats {
+        max-width: 50%;
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descricao {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .cabecalho .logo {
+        width: 50px;
+    }
+
+    .cabecalho .menu li [href="#"] {
+        font-size: 20px;
+        padding: 7px 15px;
+        border-radius: 30px;
+        
+    }
+    
+    .container .imagem-titulo {
+        max-width: 75%;
+        padding: 20px 0 0px;
+        
+    }
+
+    .container .descricao {
+        font-size: 15px;
+    }
+
+    .modal .fechar-modal {
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .modal #video {
+        width: 300px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 376px) {
+    .modal #video {
+        width: 250px;
+        height: 140px;
+    }
+}
